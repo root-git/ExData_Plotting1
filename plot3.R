@@ -25,6 +25,6 @@ png("plot3.png", width = 480, height = 480, units = "px")
 plot(datetime, subMetering1, type="l", xlab = "", ylab = "Energy sub metering")
 lines(datetime, subMetering2, type="l", col= "red")
 lines(datetime, subMetering3, type="l", col="blue")
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=2.5, col=c("black", "red", "blue"), bty="n")
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=2.5, col=c("black", "red", "blue"))
 
 dev.off()
